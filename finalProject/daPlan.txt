@@ -1,0 +1,18 @@
+%INITIALIZATION%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+processInput
+	clean up the files- will call mapFormatChange
+makeOptWallWaypoints
+	turns the optional wall points into waypoints
+generate RRT
+
+
+%move the robot in the RRT%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+- Andrew localization
+
+%Reaching a waypoint %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+reachedWaypoint
+	what to do if i reach a waypoint.
+	Will call wallCheckSequence
+	Will also need to call something to deal with the actual waypoints
+wallCheckSequence
+	what to do if i want to check a wall

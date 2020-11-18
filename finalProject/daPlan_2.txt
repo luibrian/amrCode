@@ -1,0 +1,19 @@
+initialize at start
+	Run initialization
+	ANDREW YOU NEED TO POP SOME STUFF IN HERE
+
+
+When the robot reaches a waypoint, run reachedWaypoint
+1. It will check what type of waypoint it is
+	optWallWaypointCheck
+2. This will call either
+	1. optWallWaypointTurn
+		something to grab data
+		wallCheckSequence
+	2. actualWaypointSequence()
+3. updateMapWaypoints
+	Updates the map and the waypoints accordingly
+4. Generate a new RRT
+
+Repeat for infinite success
+Have an exit for the loop when it hits everything
